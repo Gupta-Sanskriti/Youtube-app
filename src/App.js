@@ -7,7 +7,7 @@ import store from "./Redux/store";
 function App() {
   return (
     <Provider store={store}>
-      <div className="">
+      <div className="scroll-smooth">
         <Header />
         <Body />
       </div>

@@ -2,11 +2,15 @@ import React from "react";
 import { AiFillHome, AiFillPlayCircle } from "react-icons/ai";
 import {MdOutlineSubscriptions} from 'react-icons/md'
 import { useSelector } from "react-redux";
+
 const Sidebar = () => {
-    const Sidebarvalue = useSelector(store=>store.sidebar.toggleSidebar);
+
+    const Sidebarvalue = useSelector(store=>store.sidebar.isSidebarOpen);
+
+    if(!Sidebarvalue) return null
 
   return (
-    <div className="grid grid-flow-row w-[30rem] md:w-[20rem] p-3 shadow-md h-[91vh]">
+    <div className="grid grid-flow-row w-[10rem] md:w-[20rem] p-3 shadow-md h-[90vh] transition delay-300 duration-300 ease-in-out ">
         <div className="">
         <ul className="text-xl border-b-2">
         <li className="flex p-2 ">
