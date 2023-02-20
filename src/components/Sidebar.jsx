@@ -23,7 +23,7 @@ const Sidebar = () => {
         </li>
         <li className="flex p-2">
           <MdOutlineSubscriptions className="self-center mr-2" />
-          <h1> Shorts </h1>
+          <h1> News </h1>
         </li>
       </ul>
       <ul className="text-xl border-b-2">
