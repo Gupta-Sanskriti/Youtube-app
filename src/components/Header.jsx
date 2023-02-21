@@ -4,6 +4,7 @@ import { FaUserCircle } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
 import { useDispatch } from "react-redux";
 import { toggleSidebar } from "../Redux/sidebarSlice";
+import Logo from "../assets/youtubeimg.png"
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -20,8 +21,9 @@ const Header = () => {
             setTimeout(()=>tglSidebar(),100);
           }}
         />
+        {/* <img src={Logo} alt=""  height="100px"/> */}
 
-        <BsYoutube className="text-3xl text-red-600" />
+        <BsYoutube  className="text-3xl text-red-600"/>
       </div>
       <div className="flex p-2">
         <input
