@@ -10,7 +10,7 @@ const Sidebar = () => {
     if(!Sidebarvalue) return null
 
   return (
-    <div className={"grid grid-flow-row w-[10rem] md:w-[20rem] p-3 shadow-md h-[90vh] "}>
+    <div className={"grid grid-flow-row w-[10rem] md:w-[16rem] p-3 shadow-md h-[90vh] "}>
         <div className="">
         <ul className="text-xl border-b-2">
         <li className="flex p-2 ">

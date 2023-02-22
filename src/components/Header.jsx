@@ -4,7 +4,6 @@ import { FaUserCircle } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
 import { useDispatch } from "react-redux";
 import { toggleSidebar } from "../Redux/sidebarSlice";
-import Logo from "../assets/youtubeimg.png"
 
 const Header = () => {
   const dispatch = useDispatch();
