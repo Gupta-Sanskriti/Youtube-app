@@ -15,7 +15,7 @@ const MainContainer = () => {
         setVideos(json.items)
     }
     // videos.map((video)=>console.log(video))
-    // nothing just commenting for fun
+    // 
     if (videos.length === 0) return null
 
   return (
