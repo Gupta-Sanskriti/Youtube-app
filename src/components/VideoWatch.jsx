@@ -2,7 +2,7 @@ import React from 'react'
 
 const VideoWatch = () => {
   return (
-    <div>new pagdfbskjbgfke ...</div>
+    <div>new page ...</div>
   )
 }
 
